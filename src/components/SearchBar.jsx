@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 class SearchBar extends Component {
   render () {
     return (
-      <form className="form-search">
-        <input type="search" />
-      </form>
+      <input type="text" className="form-control form-search" />
     );
   }
 }
